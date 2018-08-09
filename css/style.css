@@ -1,0 +1,307 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fbfbfb;
+}
+.center-content {
+    max-width: 950px;
+    margin: 0 auto;
+}
+header {
+    background: #ffffff;
+    padding: 50px 0 30px 0;
+    box-shadow: 0 3px 8.37px 0.63px rgba(205, 205, 205, 0.55);
+}
+header .logo {
+    float: left;
+}
+.logo p {
+    font-size: 1.618em;
+    font-weight: bold;
+    color: #007ee5;
+}
+header nav {
+    float: right;
+}
+nav ul li {
+    float: left;
+}
+nav a {
+    display: block;
+    font-size: 0.875em;
+    color: #007ee5;
+    margin-right: 20px;
+    padding: 7px 0 7px 0;
+}
+nav a:hover {
+    border-bottom: 2px solid #007ee5;
+}
+nav .sing-btn {
+    padding: 7px 30px 7px 10px;
+    border: 1px solid #007ee5;
+    color: #007ee5;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+nav .sing-btn:hover {
+    background: #007ee5;
+    border-bottom: 1px solid #007ee5;
+    color: #ffffff;
+}
+nav #pull {
+    display: none;
+}
+.banner {
+    padding-top: 60px;
+}
+.banner h2 {
+    font-size: 2.25em;
+    font-weight: 300;
+    color: #302d2d;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.banner img {
+    display: block;
+    margin: 0 auto 60px auto;
+}
+.pages {
+    margin-bottom: 120px;
+}
+.pages h2 {
+    font-size: 2.25em;
+    font-weight: 300;
+    color: #302d2d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pages h3 {
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #302d2d;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+.pages-flex {
+    display: flex;
+}
+.pages-content article {
+    float: left;
+    width: 28.94%;
+    margin-right: 6.59%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 24px 0 rgba(205, 205, 205, 0.55);
+    padding: 10px 0 50px 0;
+    display: flex;
+    align-items: flex-end;
+}
+.pages-content article:last-child {
+    margin-right: 0;
+}
+.main-page-content {
+    margin: 0 auto;
+}
+.pages-content img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.pages-content p {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #454545;
+}
+.block-prod {
+    border-bottom: 2px solid #e3e3e3;
+    box-shadow: 0 2px #f7f7f7;
+}
+.block-prod article {
+    margin-bottom: 110px;
+}
+.block-prod article:last-child {
+    margin-bottom: 80px;
+}
+.block-prod article .description {
+    float: left;
+}
+.block-prod .middle-art .description {
+    float: right;
+}
+.description h2 {
+    font-size: 2.25em;
+    font-weight: 300;
+    color: #454545;
+    margin-bottom: 30px;
+}
+.description p {
+    font-size: 1.25em;
+    color: #454545;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.block-prod article .images {
+    float: right;
+}
+.block-prod .middle-art .images {
+    float: left;
+}
+.register {
+    padding: 50px 0;
+    background: #ffffff;
+    box-shadow: 0px 3px 8.37px 0.63px rgba(205, 205, 205, 0.55);
+    margin-bottom: 40px;
+}
+.register h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #454545;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.register .register-btns {
+
+    text-align: center;
+}
+.register-btns input {
+    width: 250px;
+    padding: 20px 0;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    border-radius: 5px;
+    border: none;
+    background: #302d2d;
+    cursor: pointer;
+}
+.register-btns .register-btn {
+    margin-right: 20px;
+}
+.register-btns input:hover {
+    background: #007ee5;
+}
+footer {
+    padding-bottom: 50px;
+}
+footer .links {
+    float: left;
+}
+.links article {
+    float: left;
+    margin-right: 70px;
+}
+.links h2 {
+    font-size: 0.875em;
+    font-weight: bold;
+    color: #302d2d;
+    margin-bottom: 10px;
+}
+.links p {
+    font-size: 0.875em;
+    margin-bottom: 10px;
+}
+.links a {
+    color: #818181;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.priv-info {
+    float: right;
+}
+.priv-info p {
+    color: #818181;
+    font-size: 0.875em;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+@media screen and (max-width:768px) {
+    .pages {
+        margin-bottom: 50px;
+    }
+    .pages-flex {
+        flex-flow: column;
+    }
+    .pages-content article {
+        margin: 0 auto 20px auto;
+        width: 70%;
+    }
+    .pages-content article:last-child {
+        margin: 0 auto 20px auto;
+    }
+    .block-prod article .description {
+        float: none;
+    }
+    .description h2 {
+        text-align: center;
+    }
+    .description p {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .block-prod article {
+        margin-bottom: 50px;
+    }
+    .block-prod article .images {
+        float: none;
+        text-align: center;
+    }
+    .block-prod .middle-art .description {
+        float: none;
+    }
+    .block-prod .middle-art .images {
+        float: none;
+    }
+    .register-btns input {
+        width: 200px;
+        padding: 20px 0;
+    }
+    .register-btns .register-btn {
+        margin-right: 10px;
+    }
+    footer {
+        padding-bottom: 5px;
+    }
+    footer .links {
+        float: none;
+        margin: 0 auto 30px auto;
+    }
+    .links article {
+        margin-right: 50px;
+    }
+    .links article:last-child {
+        margin-right: 0;
+    }
+    .priv-info {
+        float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width:480px) {
+    /*Здесь нужно разобраться с адаптивным меню и с кнопками в контейнере register
+    После чего это будет доделано
+    На данный момент нет выпадающего меню и скрыта кнопка Price*/
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav #pull {
+        display: block;
+        padding: 7px 30px 7px 10px;
+        border: 1px solid #007ee5;
+        color: #007ee5;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    nav #pull:hover {
+        background: #007ee5;
+        border-bottom: 1px solid #007ee5;
+        color: #ffffff;
+    }
+    .register .price-btn {
+        display: none;
+    }
+}
+
